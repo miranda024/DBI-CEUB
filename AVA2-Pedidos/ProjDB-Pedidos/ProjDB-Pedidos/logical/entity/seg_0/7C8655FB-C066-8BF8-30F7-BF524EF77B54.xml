@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C8655FB-C066-8BF8-30F7-BF524EF77B54" name="pedido">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-05 23:13:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="564CEB55-C3FD-800E-5FE8-8F64F06CC388" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPedido" id="705164FE-A7BC-DB76-DF35-7E95B937A13C">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-05 23:13:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="564CEB55-C3FD-800E-5FE8-8F64F06CC388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="E3F17775-1CEB-13E0-ED41-3F7EDBBF20B9">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-05 23:20:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="564CEB55-C3FD-800E-5FE8-8F64F06CC388" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="CF026AA7-8A4B-E215-3A12-ED8710F44AD3">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-05 23:41:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="564CEB55-C3FD-800E-5FE8-8F64F06CC388" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="6EF77C1A-ED3C-D828-B4FF-52F072DE95BA">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:01:29 UTC</createdTime>
+<generatorID>7186A929-6596-1AA3-22EE-E8A1C9666CDD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="564CEB55-C3FD-800E-5FE8-8F64F06CC388" value="true"/>
+</engineerTo>
+<referedAttribute>E447CA70-B471-8C2A-71A0-7640C97939C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="B4FEDB4B-AE4C-D61A-09E5-10C16855AF49">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:35:57 UTC</createdTime>
+<generatorID>1CFBCCDF-0DB0-602E-0EE0-D7EE28774B69</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="564CEB55-C3FD-800E-5FE8-8F64F06CC388" value="true"/>
+</engineerTo>
+<referedAttribute>C35071EC-9150-368A-3348-19DB46CED73E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E904D922-FC12-3B1F-DD49-D73FC8A734CA" name="pedido PK">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-05 23:15:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="564CEB55-C3FD-800E-5FE8-8F64F06CC388" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>705164FE-A7BC-DB76-DF35-7E95B937A13C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

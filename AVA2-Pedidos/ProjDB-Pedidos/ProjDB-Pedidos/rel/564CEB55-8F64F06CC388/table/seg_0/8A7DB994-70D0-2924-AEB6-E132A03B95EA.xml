@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A7DB994-70D0-2924-AEB6-E132A03B95EA" name="produto">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<generatorID>E04662CD-573D-8420-81C3-C48675CAA8CA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProduto" id="9E4C82CC-14D0-1124-E14E-105F83F4D197">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<generatorID>7E4683C5-8397-18F7-E2F5-604518A189D5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="8CB442C4-1E89-481C-42AA-C7F85DA02C41">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<generatorID>CD22359E-51C9-2E4A-84BB-7C9DE9A0CC37</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="FB139365-28CD-7586-DEC6-F54F8420F27C">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<generatorID>8958D183-BBD5-27F4-DFAB-130951946D4A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitario" id="523B9E5D-DB39-5855-8DFA-3FFE7BF83721">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<generatorID>92F8B94D-A017-D5E4-5833-834C2E76E939</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5CAAFA8-0494-B2F0-B0AB-B789D7A17A0C" name="produto_PK">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<generatorID>11147CC4-17F9-B12D-51B2-C92C451D84BB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E4C82CC-14D0-1124-E14E-105F83F4D197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

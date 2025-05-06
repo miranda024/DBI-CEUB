@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB6678F3-C7D6-3373-6A1B-359F6D0662EC" name="pediddoproduto">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="produto_idProduto" id="DF44A450-969D-59D1-D57B-AD836EEB64FA">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="138A1E66-D973-F206-B991-5AF1DBDE1601" referredColumn="9E4C82CC-14D0-1124-E14E-105F83F4D197"/>
+</associations>
+</Column>
+<Column name="pedido_idPedido" id="31F40BFC-6A4D-020F-9D9F-1C0E42884B14">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47AF6905-E56E-6A62-8441-B941AB021AED" referredColumn="A3FD1664-48FD-30AB-99C6-C62A673246FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F0D16D9-9B90-B464-F50B-69A75A19C906" name="pediddoproduto_PK">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF44A450-969D-59D1-D57B-AD836EEB64FA"/>
+<colUsage columnID="31F40BFC-6A4D-020F-9D9F-1C0E42884B14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10B0DC3C-7E96-E896-F120-030D19A36948" name="pediddoproduto_produto_FK">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<generatorID>C0246A0B-7189-84E9-B7C6-EF39B03CC3FA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF44A450-969D-59D1-D57B-AD836EEB64FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E7626F3-51A0-AEAD-0E36-A2DDB0A9C9AB" name="pediddoproduto_pedido_FK">
+<createdBy>miguel.miranda</createdBy>
+<createdTime>2025-05-06 00:37:19 UTC</createdTime>
+<generatorID>C0246A0B-7189-84E9-B7C6-EF39B03CC3FA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31F40BFC-6A4D-020F-9D9F-1C0E42884B14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
